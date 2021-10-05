@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE udvar [
+	<!ELEMENT udvar (gazda, kutya, kakas, tyuk+, roka?, diszno)>
+	<!ELEMENT gazda EMPTY > 
+	<!ATTLIST gazda nev CDATA #REQUIRED>
+	<!ELEMENT macska (#PCDATA)>
+	<!ATTLIST macska nev CDATA #REQUIRED>
+	<!ELEMENT birka EMPTY>
+	<!ATTLIST birka id ID #REQUIRED>
+	<!ELEMENT tehen EMPTY>
+	<!ATTLIST tehen ferj CDATA #REQUIRED>
+	<!ELEMENT roka EMPTY>
+	<!ELEMENT diszno (#PCDATA)>
+	<!ATTLIST diszno nev CDATA #REQUIRED>
+	
+]>
+
+<udvar>
+    <gazda nev="Liza"/>
+    <macska nev="Filemon"></macska>
+    <birka id="szv_ns3_2jb"/>
+    <tehen ferj="szv_ns3_2jb"/>
+    <!--<roka/>-->
+    <diszno nev="Manka"></diszno>
+</udvar>

@@ -1,0 +1,24 @@
+<!ELEMENT minta (A | B | C | A_B)*>
+    <!ELEMENT A (Ab+, Ac)>
+        <!ATTLIST A Aa ID #REQUIRED>
+        <!ELEMENT Ab (Abx, Aby)>
+            <!ELEMENT Abx (#PCDATA)>
+            <!ELEMENT Aby (#PCDATA)>
+        <!ELEMENT Ac (Acd, Ace)>
+            <!ELEMENT Acd (#PCDATA)>
+            <!ELEMENT Ace (#PCDATA)>
+    <!ELEMENT A_B (A_Bc)>
+        <!ATTLIST A_B
+            A_Ba IDREF #IMPLIED
+            A_Bb IDREF #IMPLIED>
+        <!ELEMENT A_Bc (#PCDATA)>
+    <!ELEMENT B (Bb)>
+        <!ATTLIST B
+            Ba ID #REQUIRED
+            Bc IDREF #IMPLIED>
+        <!ELEMENT Bb (Bbx, Bby)>
+            <!ELEMENT Bbx (#PCDATA)>
+            <!ELEMENT Bby (#PCDATA)>
+    <!ELEMENT C (Cb)>
+        <!ATTLIST C Ca ID #REQUIRED>
+        <!ELEMENT Cb (#PCDATA)>

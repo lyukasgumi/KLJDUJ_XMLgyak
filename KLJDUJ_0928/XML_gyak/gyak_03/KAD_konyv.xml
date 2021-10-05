@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE konyvek SYSTEM "KAD_konyv.dtd">
+
+<konyvek>
+	<konyv id="k1">
+		<cim> Fejleszd_a_gondolkodásod </cim>
+		<szerzo> Dr._Joe_Dispenza</szerzo>
+		<kiado > Édesvíz_Kiadó </kiado>
+		<kiadasiev > 2020 </kiadasiev>
+		<abstract>hablaty</abstract>
+	</konyv>
+	<konyv id="k2">
+		<cim> Windows_10_mindenkinek </cim>
+		<szerzo> Bártfai_Barnabás</szerzo>
+		<kiado > BBS-INFO_Kft. </kiado>
+		<kiadasiev > 2019 </kiadasiev>
+	</konyv>
+	<konyv id="k3">
+		<cim> DarkNet_-_avagy_az_internet_sötét_oldala  </cim>
+		<szerzo> Nagy_Róbert </szerzo>
+		<kiado > BBS-INFO_Kft. </kiado>
+		<kiadasiev > 2021 </kiadasiev>
+	</konyv>
+
+</konyvek>
+
+
+
+
+
+	

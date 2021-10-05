@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adatbazis SYSTEM "KAD_adatbazis.dtd">
+
+<adatbazis>
+	<dolgozo kod="d1">
+		<nev>Zakar Barnabás</nev>
+		<fizetes>100000</fizetes>
+	</dolgozo>
+	<dolgozo kod="d2">
+		<nev>Kiss Evelin</nev>
+		<fizetes>500000</fizetes>
+	</dolgozo>
+
+</adatbazis>
