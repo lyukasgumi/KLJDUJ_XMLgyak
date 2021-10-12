@@ -1,0 +1,16 @@
+<!ELEMENT mozi (film)*>
+        <!ELEMENT film (rendezo+, szinesz, iro)*>
+        <!ATTLIST film
+            id ID #REQUIRED
+            mufaj CDATA #IMPLIED>
+        <!ELEMENT rendezo (#PCDATA)>
+        <!ATTLIST rendezo
+            id CDATA #REQUIRED
+            nev CDATA #REQUIRED>
+        <!ELEMENT szinesz (#PCDATA)>
+        <!ATTLIST szinesz
+            id CDATA #REQUIRED
+            nev CDATA #REQUIRED>
+        <!ELEMENT iro (#PCDATA)>
+        <!ATTLIST iro
+            id CDATA #REQUIRED>

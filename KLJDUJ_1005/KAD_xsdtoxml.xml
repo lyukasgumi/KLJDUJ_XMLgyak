@@ -1,0 +1,15 @@
+<minta>
+  <!--1 or more repetitions:-->
+  <A a1="3">
+    e
+    <B>string</B>
+    gero
+    <C>string</C>
+    cum
+  </A>
+  <!--1 or more repetitions:-->
+  <B b1="3">sonoras aeoliam</B>
+  <!--1 or more repetitions:-->
+  <C c1="3"/>
+  <AC ac1="3" ac2="3"/>
+</minta>

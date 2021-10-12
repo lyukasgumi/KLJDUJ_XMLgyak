@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE konyvek SYSTEM "KAD_konyv.dtd"> -->
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KAD_konyv.xsd">
+    <konyv id="konyv1">
+        <cim>DarkNet - avagy az internet sötét oldala</cim>
+        <kiadas_eve>2021</kiadas_eve>
+        <kiado>BBS-Info Kft.</kiado>
+        <szerzo>Nagy Róbert</szerzo>
+        <absztrakt>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</absztrakt>
+    </konyv>
+    <konyv id="konyv2">
+        <cim>Fejleszd a gondolkodásod </cim>
+        <kiadas_eve>2020</kiadas_eve>
+        <kiado>Édesvíz kiadó</kiado>
+        <szerzo>Dr. Joe Dispenza</szerzo>
+    </konyv>
+    <konyv id="konyv3">
+        <cim>Windows 10 mindenkinek </cim>
+        <kiadas_eve>2019</kiadas_eve>
+        <kiado>BBS-Info Kft.</kiado>
+        <szerzo>Bártfai Barnabás</szerzo>
+    </konyv>
+</konyvek>

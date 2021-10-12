@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KAD_orarend.xsd">
+    <ora id="ora1" tipus="eloadas">
+        <targy>XML</targy>
+        <idopont>
+        	<nap>hetfő</nap>
+        	<tol>12</tol>
+        	<ig>14</ig>
+        </idopont> 
+        <helyszin>XXXVII</helyszin>
+        <oktato>Bednarik</oktato>
+        <szak>programtervezö</szak>
+    </ora>
+    <ora id="ora2" tipus="gyakorlat">
+        <targy>XML</targy>
+        <idopont>
+        	<nap>Csütörtök</nap>
+        	<tol>12</tol>
+        	<ig>14</ig>
+        </idopont> 
+        <helyszin>info103</helyszin>
+        <oktato>Bednarik</oktato>
+        <szak>programtervezö</szak>
+    </ora>
+    <ora id="ora3" tipus="eloadas">
+       <targy>VIR</targy>
+        <idopont>
+        	<nap>szerda</nap>
+        	<tol>12</tol>
+        	<ig>14</ig>
+        </idopont> 
+        <helyszin>info202</helyszin>
+        <oktato>Sasvári</oktato>
+        <szak>programtervezö</szak>
+    </ora>
+    <ora id="ora4" tipus="konzultáció">
+        <targy>szakdolgozatkészítés</targy>
+        <idopont>
+        	<nap>kedd</nap>
+        	<tol>12</tol>
+        	<ig>14</ig>
+        </idopont> 
+        <helyszin>Inf/13</helyszin>
+        <oktato>Hornyák</oktato>
+        <szak>programtervezö</szak>
+    </ora>
+</orarend>
