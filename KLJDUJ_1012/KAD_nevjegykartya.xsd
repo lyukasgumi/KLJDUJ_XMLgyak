@@ -1,0 +1,35 @@
+<? xml version = " 1.0 " encoding = " UTF-8 " ?>
+< xs : schema  xmlns : xs = " http://www.w3.org/2001/XMLSchema " >
+    < xs : element  name = " nevjegykartyak " >
+        < xs : complexType >
+            < xs : sorozat >
+                < Xs : elem  neve = " nevjegykartya "  MaxOccurs = " határtalan " >
+                    < xs : complexType >
+                        < xs : sorozat >
+                            < xs : element  name = " nev "  type = " xs: string " />
+                            < xs : elem  neve = " ceg " >
+                                < xs : complexType >
+                                    < xs : sorozat >
+                                        < xs : element  name = " nev "  type = " xs: string " />
+                                        < xs : elem  neve = " cim " >
+                                            < xs : complexType >
+                                                < xs : sorozat >
+                                                    < xs : element  name = " iranyitoszam "  type = " xs: string " />
+                                                    < xs : element  name = " varos "  type = " xs: string " />
+                                                    < xs : element  name = " utca "  type = " xs: string " />
+                                                    < xs : element  name = " hazszam "  type = " xs: string " />
+                                                </ xs : sorozat >
+                                            </ xs : complexType >
+                                        </ xs : elem >
+                                        < xs : element  name = " telefonszam "  type = " xs: string " />
+                                        < xs : element  name = " weblap "  type = " xs: string " />
+                                    </ xs : sorozat >
+                                </ xs : complexType >
+                            </ xs : elem >
+                        </ xs : sorozat >
+                    </ xs : complexType >
+                </ xs : elem >
+            </ xs : sorozat >
+        </ xs : complexType >
+    </ xs : elem >
+</ xs : séma >

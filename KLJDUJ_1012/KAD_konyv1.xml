@@ -1,0 +1,36 @@
+<? xml version = " 1.0 " encoding = " UTF-8 " ?>
+
+< könyvek>
+    < könyv>
+        < cim > Mariska kalandjai </ cim >
+        < szerzo > BK Géza </ szerzo >
+        < szereplo >
+            < nev > Balogh Mariska </ nev >
+            < baratja > Orsós Radiátor </ baratja >
+            < szuletett > 1999.03.23. </ szuletett >
+            < jellemzes > Szerethető </ jellemzes >
+        </ szereplo >
+        < masikszereplo >
+            < nev > Orsós Radiátor </ nev >
+            < baratja > Balogh Mariska </ baratja >
+            < szuletett > 1998.09.11. </ szuletett >
+            < jellemzes > Bunkó </ jellemzes >
+        </ masikszereplo >
+    </ könyv>
+    < könyv>
+        < cim > Kalandok a hatszögletű háromszög sivatagban </ cim >
+        < szerzo > John Cena </ szerzo >
+        < szereplo >
+            < nev > Homoki Kígyó </ nev >
+            < baratja > Sivatagi Bogár </ baratja >
+            < szuletett > 2021.02.11. </ szuletett >
+            < jellemzők > Túlélő kúszó </ jellemzes >
+        </ szereplo >
+        < masikszereplo >
+            < nev > Sivatagi Bogár </ nev >
+            < baratja > Homoki Kígyó </ baratja >
+            < szuletett > 2020.12.32. </ szuletett >
+            < jellemzes > Védeni való pici bogárka </ jellemzes >
+        </ masikszereplo >
+    </ könyv>
+</ könyvek>

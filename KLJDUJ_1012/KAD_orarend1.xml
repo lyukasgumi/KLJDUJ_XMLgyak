@@ -1,0 +1,59 @@
+? xml version = "1.0" encoding = "utf-8"?>
+
+
+< orarend >
+	
+		
+	< ora  id = " 1 "  tipus = " elmélet+gyakorlat " >	
+		< targy  nev = " Adatkezelés XML-ben " />
+		< idopont >
+			< nap  nap = " Kedd " />
+			< tol  tol = " 12:00 " />
+			< ig  ig = " 16:00 " />
+		</ idopont >
+		< helyszin  helyszin = " I előadó, 103-labor " />
+		< oktato  nev = " Bednarik László " />
+		< szak  szak = " Programtervező " />
+		
+	</ ora >	
+	
+	< ora  id = " 1 "  tipus = " elmélet+gyakorlat " >	
+		< targy  nev = " Vállalati információs rendszerek fejlesztése " />
+		< idopont >
+			< nap  nap = " Szerda " />
+			< tol  tol = " 16:00 " />
+			< ig  ig = " 20:00 " />
+		</ idopont >
+		< helyszin  helyszin = " XI előadó, 102-labor " />
+		< oktato  nev = " Dr. Sasvári Péter László " />
+		< szak  szak = " Programtervező " />
+	</ ora >		
+			
+	< ora  id = " 2 "  tipus = " elmélet " >	
+		< targy  nev = " Szoftvertechnológia " />
+		< idopont >
+			< nap  nap = " Szerda " />
+			< tol  tol = " 08:00 " />
+			< ig  ig = " 12:00 " />
+		</ idopont >
+		< helyszin  helyszin = " 305 terem " />
+		< oktato  nev = " Dr. Mileff Péter " />
+		< szak  szak = " Programtervező " />
+	</ ora >		
+			
+	< Ora  id = " 3 "  tipus = " elmélet " >	
+		< targy  nev = " Mesterséges Inteligencia " />
+		< idopont >
+			< nap  nap = " Hétfő " />
+			< tol  tol = " 14:00 " />
+			< ig  ig = " 17:00 " />
+		</ idopont >
+		< helyszin  helyszin = " 33-as előadó " />
+		< oktato  nev = " Dudás László " />
+		< szak  szak = " Programtervező " />
+	
+	</ ora >
+	
+	
+
+</ orarend >

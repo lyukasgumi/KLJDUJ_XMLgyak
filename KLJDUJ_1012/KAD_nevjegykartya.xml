@@ -1,0 +1,40 @@
+
+<? xml version = " 1.0 " encoding = " UTF-8 " ?>
+
+< nevjegykartyak >
+< nevjegykartya >
+    < nev > Kovács Antal Domán </ nev >
+    < ceg >
+        < nev > Miskolci Egyetem </ nev >
+        < cim >
+            < iranyitoszam > 3515 </ iranyitoszam >
+            < varos > Miskolc </ varos >
+            < utca > Egyetemváros </ utca >
+            < hazszam > E/2 </ hazszam >
+        </ cim >
+        < telefonszam > 36706755521 </ telefonszam >
+        < weblap > uni-miskolc.hu </ weblap >
+    </ ceg >
+     < beosztas > Hallgató </ beosztas >
+     < telefonszam > 47370531 </ telefonszam >
+     < email > kovacsantaldoman@gmail.com </ email >
+  </ nevjegykartya >
+< nevjegykartya >
+< nevjegykartya >
+    < nev > Bednarik László </ nev >
+    < ceg >
+        < nev > Miskolci Egyetem </ nev >
+        < cim >
+            < iranyitoszam > 3530 </ iranyitoszam >
+            < varos > Miskolc </ varos >
+            < utca > Egyetemváros </ utca >
+            < hazszam > 1 </ hazszam >
+        </ cim >
+        < telefonszam > 3646565111 </ telefonszam >
+        < weblap > uni-miskolc.hu </ weblap >
+    </ ceg >
+     < beosztas > Egyetemi Docens </ beosztas >
+     < telefonszam > 17-58 </ telefonszam >
+     < email > bednarik.laszlo@iit.uni-miskolc.hu </ email >
+</ nevjegykartya >
+</ nevjegykartyak >

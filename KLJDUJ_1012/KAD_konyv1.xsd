@@ -1,0 +1,37 @@
+<? xml version = " 1.0 " encoding = " UTF-8 " ?>
+< xs : schema  xmlns : xs = " http://www.w3.org/2001/XMLSchema " >
+    < xs : element  name = " könyvek " >
+        < xs : complexType >
+            < xs : sorozat >
+                < xs : element  name = " könyv " >
+                    < xs : complexType >
+                        < xs : sorozat >
+                            < xs : element  name = " cim "  type = " xs: string " />
+                            < xs : element  name = " szerzo "  type = " xs: string " />
+                            < xs : element  name = " szereplo " >
+                                < xs : complexType >
+                                    < xs : sorozat >
+                                        < xs : element  name = " nev "  type = " xs: string " />
+                                        < xs : element  name = " baratja "  type = " xs: string " />
+                                        < xs : element  name = " szuletett "  type = " xs: string " />
+                                        < xs : element  name = " jellemzes "  type = " xs: string " />
+                                    </ xs : sorozat >
+                                </ xs : complexType >
+                            </ xs : elem >
+                            < xs : element  name = " masikszereplo " >
+                                < xs : complexType >
+                                    < xs : sorozat >
+                                        < xs : element  name = " nev "  type = " xs: string " />
+                                        < xs : element  name = " baratja "  type = " xs: string " />
+                                        < xs : element  name = " szuletett "  type = " xs: string " />
+                                        < xs : element  name = " jellemzes "  type = " xs: string " />
+                                    </ xs : sorozat >
+                                </ xs : complexType >
+                            </ xs : elem >
+                        </ xs : sorozat >
+                    </ xs : complexType >
+                </ xs : elem >
+            </ xs : sorozat >
+        </ xs : complexType >
+    </ xs : elem >
+</ xs : séma >
