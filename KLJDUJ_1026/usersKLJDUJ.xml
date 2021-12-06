@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="usersKLJDUJ.xsd">
+  <user id="1">
+    <firstname>Lajos</firstname>
+    <lastname>Rézműves</lastname>
+    <profession>Pubklic worker</profession>
+  </user>
+  <user id="2">
+    <firstname>Johny</firstname>
+    <lastname>Sins</lastname>
+    <profession>Actor</profession>
+  </user>
+  <user id="3">
+    <firstname>Gyula</firstname>
+    <lastname>Görcsös</lastname>
+    <profession>Porter</profession>
+  </user>
+</users>
