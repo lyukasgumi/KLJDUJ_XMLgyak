@@ -1,0 +1,167 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!--XML felepitese -->
+
+  <xs:element name="Covid19onkenteslogisztika">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Mentoallomasok">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mentoallomas" type="Mentoallomas" minOccurs="0" maxOccurs="19"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Jarmuvek">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Jarmu" type="Jarmu" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="Hasznalat_Lista">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Hasznalja" type="Hasznalja" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="Szemelyzetek">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Szemelyzet" type="Szemelyzet" minOccurs="1" maxOccurs="15"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Szemelyek">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Szemely" type="Szemely" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+
+
+    <!-- Kulcsok -->
+
+    <xs:key name="AllomasID">
+      <xs:selector xpath=".//Mentoallomas"/>
+      <xs:field xpath="@ID"/>
+    </xs:key>
+    
+    <xs:key name="Sz_ID">
+      <xs:selector xpath=".//Szemelyzet"/>
+      <xs:field xpath="@Sz_ID"/>
+    </xs:key>
+
+    <xs:keyref name="AllomasIDref2" refer="AllomasID">
+      <xs:selector xpath=".//Jarmu"/>
+      <xs:field xpath="@AllomasID"/>
+    </xs:keyref>
+
+    <xs:keyref name="SzemelyzetIDref1" refer="Sz_ID">
+      <xs:selector xpath=".//Hasznalja"/>
+      <xs:field xpath="@Sz_ID"/>
+    </xs:keyref>
+    
+    <xs:keyref name="JarmuIDref1" refer="JarmuID">
+      <xs:selector xpath=".//Hasznalja"/>
+      <xs:field xpath="@JarmuID"/>
+    </xs:keyref>
+    
+    <xs:keyref name="AllomasIDref1" refer="AllomasID">
+      <xs:selector xpath=".//Szemely"/>
+      <xs:field xpath="@MentoA"/>
+    </xs:keyref>
+    
+    <xs:key name="TAJ">
+      <xs:selector xpath=".//Szemely"/>
+      <xs:field xpath="@TAJ"/>
+    </xs:key>
+
+    <xs:key name="JarmuID">
+      <xs:selector xpath=".//Jarmu"/>
+      <xs:field xpath="@J_ID"/>
+    </xs:key>
+
+
+
+
+  </xs:element>
+
+
+
+  <!-- Komplex típusok -->
+  <xs:complexType name="Mentoallomas">
+    <xs:sequence>
+      <xs:element name="varos" type="xs:string"/>
+      <xs:element name="megye" type="xs:string"/>
+      <xs:element name="autok_szama" type="xs:int"/>
+    </xs:sequence>
+    <xs:attribute name="ID" type="xs:int" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Jarmu">
+    <xs:sequence>
+      <xs:element name="Rendszam" type="xs:string"/>
+      <xs:element name="Uzemanyagszint" type="xs:int"/>
+      <xs:element name="Tankolni_kell" type="xs:byte"/>
+      <xs:element name="Evjarat" type="xs:int"/>
+    </xs:sequence>
+    <xs:attribute name="ID" type="xs:int" use="required"/>
+    <xs:attribute name="AllomasID" type="xs:int" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Szemelyzet">
+    <xs:sequence>
+      <xs:element name="Tesztelo" type="xs:string"/>
+      <xs:element name="Sofor" type="xs:string"/>
+      <xs:element name="Menetido" type="xs:int"/>
+    </xs:sequence>
+    <xs:attribute name="Sz_ID" type="xs:int" use="required"/>
+  </xs:complexType>
+
+
+  <xs:complexType name="Szemely">
+    <xs:sequence>
+      <xs:element name="nev" type="xs:string"/>
+      <xs:element name="Szuletesi" type="Szuletesi"/>
+      <xs:element name="Lakcim" type="xs:string"/>
+      <xs:element name="Kontakt" type="xs:byte"/>
+      <xs:element name="Telefonszam" type="xs:string"/>
+      <xs:element name="Tunet" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="TAJ" type="xs:int" use="required"/>
+    <xs:attribute name="MentoA" type="xs:int" use="required"/>
+  </xs:complexType>
+  
+  <xs:complexType name="Hasznalja">
+    <xs:attribute name="Sz_ID" type="xs:int" use="required"/>
+    <xs:attribute name="JarmuID" type="xs:int" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Szuletesi">
+    <xs:sequence>
+      <xs:element name="Hely">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"> </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Ido">
+        <xs:simpleType>
+          <xs:restriction base="xs:date"> </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+
+</xs:schema>
