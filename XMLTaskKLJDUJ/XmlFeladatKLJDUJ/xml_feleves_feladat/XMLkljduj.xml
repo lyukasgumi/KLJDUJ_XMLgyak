@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Covid19onkenteslogisztika xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XMLSchemaKLJDUJ.xsd">
+    <Mentoallomasok>
+
+        <Mentoallomas ID="1">
+            <varos>Miskolc</varos>
+            <megye>Borsod-Abauj-Zemplen</megye>
+            <autok_szama>2</autok_szama>
+        </Mentoallomas>
+
+        <Mentoallomas ID="2">
+            <varos>Debrecen</varos>
+            <megye>Hajdu-Bihar</megye>
+            <autok_szama>3</autok_szama>
+        </Mentoallomas>
+    </Mentoallomasok>
+
+    <Jarmuvek>
+
+        <Jarmu JID="101" AllomasID="1">
+            <Rendszam>MZG101</Rendszam>
+            <Uzemanyagszint>55</Uzemanyagszint>
+            <Tankolni_kell>0</Tankolni_kell>
+            <Evjarat>1999</Evjarat>
+        </Jarmu>
+
+        <Jarmu JID="102" AllomasID="1">
+            <Rendszam>MZG102</Rendszam>
+            <Uzemanyagszint>72</Uzemanyagszint>
+            <Tankolni_kell>0</Tankolni_kell>
+            <Evjarat>2004</Evjarat>
+        </Jarmu>
+
+        <Jarmu JID="104" AllomasID="2">
+            <Rendszam>MRT156</Rendszam>
+            <Uzemanyagszint>30</Uzemanyagszint>
+            <Tankolni_kell>1</Tankolni_kell>
+            <Evjarat>1995</Evjarat>
+        </Jarmu>
+
+        <Jarmu JID="105" AllomasID="2">
+            <Rendszam>MRT157</Rendszam>
+            <Uzemanyagszint>44</Uzemanyagszint>
+            <Tankolni_kell>0</Tankolni_kell>
+            <Evjarat>2003</Evjarat>
+        </Jarmu>
+
+        <Jarmu JID="106" AllomasID="2">
+            <Rendszam>MRT158</Rendszam>
+            <Uzemanyagszint>52</Uzemanyagszint>
+            <Tankolni_kell>0</Tankolni_kell>
+            <Evjarat>2008</Evjarat>
+        </Jarmu>
+
+    </Jarmuvek>
+    
+    <Hasznalat_Lista>
+        <Hasznalja Sz_ID="1001" JarmuID="101"/>
+        <Hasznalja Sz_ID="1002" JarmuID="101"/>
+        <Hasznalja Sz_ID="1004" JarmuID="102"/>
+        <Hasznalja Sz_ID="1004" JarmuID="104"/>
+    </Hasznalat_Lista>
+    
+    <Szemelyzetek>
+        <Szemelyzet Sz_ID="1001">
+            <Tesztelo>Obrzut Szabina</Tesztelo>
+            <Sofor>Kovacs Antal Doman</Sofor>
+            <Menetido>7</Menetido>
+        </Szemelyzet>
+
+        <Szemelyzet Sz_ID="1002">
+            <Tesztelo>Ocsai Greta</Tesztelo>
+            <Sofor>Nadhazy Gergely</Sofor>
+            <Menetido>9</Menetido>
+        </Szemelyzet>
+
+        <Szemelyzet Sz_ID="1003">
+            <Tesztelo>Bodolai Erno</Tesztelo>
+            <Sofor>Jaszai Denes</Sofor>
+            <Menetido>5</Menetido>
+        </Szemelyzet>
+
+        <Szemelyzet Sz_ID="1004">
+            <Tesztelo>Balogh Virag</Tesztelo>
+            <Sofor>Molnar Janos</Sofor>
+            <Menetido>10</Menetido>
+        </Szemelyzet>
+
+        <Szemelyzet Sz_ID="1005">
+            <Tesztelo>Jandl Bojana</Tesztelo>
+            <Sofor>Nagy Imre</Sofor>
+            <Menetido>7</Menetido>
+        </Szemelyzet>
+    </Szemelyzetek>
+
+
+    <Szemelyek>
+        <Szemely TAJ="115744619" MentoA="1">
+            <nev>Kádár Pál</nev>
+            <Szuletesi>
+                <Hely>Miskolc</Hely>
+                <Ido>1981-12-11</Ido>
+            </Szuletesi>
+            <Lakcim>4220, Hajdúböszörmény, Mester utca, 12/B</Lakcim>
+            <Kontakt>0</Kontakt>
+            <Telefonszam>06706755521</Telefonszam>
+            <Tunet>köhögés</Tunet>
+            <Tunet>láz</Tunet>
+        </Szemely>
+
+        <Szemely TAJ="115764618" MentoA="1">
+            <nev>Bisztricki Áron</nev>
+            <Szuletesi>
+                <Hely>Eger</Hely>
+                <Ido>1998-11-12</Ido>
+            </Szuletesi>
+            <Lakcim>3304, Felnémet, Köztársaság utca, 4</Lakcim>
+            <Kontakt>1</Kontakt>
+            <Telefonszam>06706755521</Telefonszam>
+        </Szemely>
+
+        <Szemely TAJ="116467287" MentoA="2">
+            <nev>Sirankó Boldizsár</nev>
+            <Szuletesi>
+                <Hely>Kaposvár</Hely>
+                <Ido>2000-12-23</Ido>
+            </Szuletesi>
+            <Lakcim>7522, Kaposújlak, Dózsa GYörgy utca, 22</Lakcim>
+            <Kontakt>0</Kontakt>
+            <Telefonszam>06706755521</Telefonszam>
+            <Tunet>köhögés</Tunet>
+            <Tunet>láz</Tunet>
+        </Szemely>
+
+    </Szemelyek>
+
+
+</Covid19onkenteslogisztika>
