@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Covid19onkenteslogisztika xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="XMLSchemaKLJDUJ.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Covid19onkenteslogisztika xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaKLJDUJ.xsd">
     <Mentoallomasok>
 
         <Mentoallomas ID="1">
@@ -18,48 +16,48 @@
 
     <Jarmuvek>
 
-        <Jarmu JID="101" AllomasID="1">
+        <Jarmu AllomasID="1" JID="101">
             <Rendszam>MZG101</Rendszam>
             <Uzemanyagszint>55</Uzemanyagszint>
-            <Tankolni_kell>0</Tankolni_kell>
+            <Tankolni_kell>1.0</Tankolni_kell>
             <Evjarat>1999</Evjarat>
         </Jarmu>
 
-        <Jarmu JID="102" AllomasID="1">
+        <Jarmu AllomasID="1" JID="102">
             <Rendszam>MZG102</Rendszam>
             <Uzemanyagszint>72</Uzemanyagszint>
             <Tankolni_kell>0</Tankolni_kell>
             <Evjarat>2004</Evjarat>
         </Jarmu>
 
-        <Jarmu JID="104" AllomasID="2">
+        <Jarmu AllomasID="2" JID="104">
             <Rendszam>MRT156</Rendszam>
             <Uzemanyagszint>30</Uzemanyagszint>
-            <Tankolni_kell>1</Tankolni_kell>
+            <Tankolni_kell>1.0</Tankolni_kell>
             <Evjarat>1995</Evjarat>
         </Jarmu>
 
-        <Jarmu JID="105" AllomasID="2">
+        <Jarmu AllomasID="2" JID="105">
             <Rendszam>MRT157</Rendszam>
             <Uzemanyagszint>44</Uzemanyagszint>
-            <Tankolni_kell>0</Tankolni_kell>
+            <Tankolni_kell>1.0</Tankolni_kell>
             <Evjarat>2003</Evjarat>
         </Jarmu>
 
-        <Jarmu JID="106" AllomasID="2">
+        <Jarmu AllomasID="2" JID="106">
             <Rendszam>MRT158</Rendszam>
             <Uzemanyagszint>52</Uzemanyagszint>
-            <Tankolni_kell>0</Tankolni_kell>
+            <Tankolni_kell>1.0</Tankolni_kell>
             <Evjarat>2008</Evjarat>
         </Jarmu>
 
     </Jarmuvek>
     
     <Hasznalat_Lista>
-        <Hasznalja Sz_ID="1001" JarmuID="101"/>
-        <Hasznalja Sz_ID="1002" JarmuID="101"/>
-        <Hasznalja Sz_ID="1004" JarmuID="102"/>
-        <Hasznalja Sz_ID="1004" JarmuID="104"/>
+        <Hasznalja JarmuID="101" Sz_ID="1001"/>
+        <Hasznalja JarmuID="101" Sz_ID="1002"/>
+        <Hasznalja JarmuID="102" Sz_ID="1004"/>
+        <Hasznalja JarmuID="104" Sz_ID="1004"/>
     </Hasznalat_Lista>
     
     <Szemelyzetek>
@@ -96,7 +94,7 @@
 
 
     <Szemelyek>
-        <Szemely TAJ="115744619" MentoA="1">
+        <Szemely MentoA="1" TAJ="115744619">
             <nev>Kádár Pál</nev>
             <Szuletesi>
                 <Hely>Miskolc</Hely>
@@ -109,7 +107,7 @@
             <Tunet>láz</Tunet>
         </Szemely>
 
-        <Szemely TAJ="115764618" MentoA="1">
+        <Szemely MentoA="1" TAJ="115764618">
             <nev>Bisztricki Áron</nev>
             <Szuletesi>
                 <Hely>Eger</Hely>
@@ -120,14 +118,14 @@
             <Telefonszam>06706755521</Telefonszam>
         </Szemely>
 
-        <Szemely TAJ="116467287" MentoA="2">
+        <Szemely MentoA="2" TAJ="116467287">
             <nev>Sirankó Boldizsár</nev>
             <Szuletesi>
                 <Hely>Kaposvár</Hely>
                 <Ido>2000-12-23</Ido>
             </Szuletesi>
             <Lakcim>7522, Kaposújlak, Dózsa GYörgy utca, 22</Lakcim>
-            <Kontakt>0</Kontakt>
+            <Kontakt>1</Kontakt>
             <Telefonszam>06706755521</Telefonszam>
             <Tunet>köhögés</Tunet>
             <Tunet>láz</Tunet>
